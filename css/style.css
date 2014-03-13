@@ -6498,6 +6498,18 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
-figure {
-  margin: 0;
-  padding: 0; }
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rokkitt', serif; }
+
+header[role="banner"] {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.hero {
+  background-color: #d5f6fa; }
+  .hero figure {
+    margin: 0;
+    padding: 0; }
