@@ -1,0 +1,9 @@
+{
+  "name": "mobile-first-landingpage",
+    "version": "1.0.0",
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-sass": "*"
+    }
+}
