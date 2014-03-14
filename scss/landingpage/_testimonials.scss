@@ -1,0 +1,31 @@
+.testimonial {
+
+
+  &.row {
+      margin:0 0 32px 0;
+  }
+
+
+  .profile-pic > img {
+    position:relative;
+    border-radius: 50%;
+    @include center-image();
+  }
+
+  .testimonial-text {
+    > p {
+      font-size:16px;
+      line-height:20px;
+      font-weight:300;
+      margin-bottom:12px;
+      &:first-line {
+        font-weight:600;
+      }
+    }
+
+    > a {
+      font-size:13px;
+      color:#555;
+    }
+  }
+}
