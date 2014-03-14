@@ -6499,7 +6499,7 @@ th.hide-for-touch {
   display: table-cell !important; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Rokkitt', serif; }
@@ -6514,3 +6514,26 @@ header[role="banner"] {
   .hero figure {
     margin: 0;
     padding: 0; }
+
+.testimonial.row {
+  margin: 0 0 32px 0; }
+.testimonial .profile-pic > img {
+  position: relative;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }
+.testimonial .testimonial-text > p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  margin-bottom: 12px; }
+  .testimonial .testimonial-text > p:first-line {
+    font-weight: 600; }
+.testimonial .testimonial-text > a {
+  font-size: 13px;
+  color: #555; }

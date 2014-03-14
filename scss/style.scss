@@ -1,20 +1,16 @@
+@mixin center-image() {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 @import "vendor/normalize";
 @import "vendor/foundation";
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rokkitt', serif;
-}
-
-
-//Header
-
-header[role="banner"] {
-  margin-top:20px;
-  margin-bottom:20px;
-}
-
+@import "landingpage/typography";
+@import "landingpage/header";
 @import "landingpage/hero";
+@import "landingpage/testimonials";
