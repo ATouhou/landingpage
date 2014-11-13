@@ -1,3 +1,5 @@
+@import "bourbon";
+
 @mixin center-image() {
   position: absolute;
   left: 50%;
@@ -8,10 +10,13 @@
           transform: translateX(-50%);
 }
 
+
+@import "vendor/awesome/font-awesome";
+
 @import "vendor/normalize";
 @import "vendor/foundation";
 @import "landingpage/typography";
 @import "landingpage/header";
 @import "landingpage/hero";
-
+@import "landingpage/features";
 @import "landingpage/testimonials";
