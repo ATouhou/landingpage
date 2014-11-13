@@ -1,17 +1,12 @@
 .hero {
 
-	border-bottom:1px solid #d4d4d4;
-
-	img {
-		margin-bottom:20px;
+	border-bottom: 1px dashed #d4d4d4;
+	padding-bottom: 20px;
+	background-color:#fff;
+	figure {
+		margin:0;
+		padding:0;
 	}
-
-  padding:0;
-  background-color:#fff;
-    figure {
-      margin:0;
-      padding:0;
-    }
 
 	h1 {
 		color: #ef5a34;
@@ -31,5 +26,6 @@
 ul.usp {
 	li {
 		font-weight: bold;
+
 	}
 }
