@@ -1,11 +1,18 @@
 module.exports = function(grunt) {
-  grunt.initConfig({
+	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
-    watch: {
+		watch: {
 			sass: {
 				files: ['scss/**/*.scss'],
 				tasks: ['sass:dist']
+			},
+
+			css: {
+				files: ['css/**/*.css'],
+				options: {
+					livereload: true
+				}
 			}
 		},
 
