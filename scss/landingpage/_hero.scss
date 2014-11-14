@@ -18,14 +18,19 @@
 		strong {
 			color: #ef5a34;
 			text-transform: uppercase;
-			margin-right: 12px;
+			line-height: 50px;
 		}
 	}
 }
 
 ul.usp {
+	list-style: none;
+	margin-left:0;
 	li {
 		font-weight: bold;
-
+		.fa {
+			font-weight: normal;
+			color:green;
+		}
 	}
 }

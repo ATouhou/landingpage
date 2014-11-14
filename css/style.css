@@ -21,7 +21,7 @@
 
 /* makes the font 33% larger relative to the icon container */
 .fa-lg {
-  font-size: 1.3333333333em;
+  font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -15%; }
 
@@ -38,24 +38,24 @@
   font-size: 5em; }
 
 .fa-fw {
-  width: 1.2857142857em;
+  width: 1.28571em;
   text-align: center; }
 
 .fa-ul {
   padding-left: 0;
-  margin-left: 2.1428571429em;
+  margin-left: 2.14286em;
   list-style-type: none; }
   .fa-ul > li {
     position: relative; }
 
 .fa-li {
   position: absolute;
-  left: -2.1428571429em;
-  width: 2.1428571429em;
-  top: 0.1428571429em;
+  left: -2.14286em;
+  width: 2.14286em;
+  top: 0.14286em;
   text-align: center; }
   .fa-li.fa-lg {
-    left: -1.8571428571em; }
+    left: -1.85714em; }
 
 .fa-border {
   padding: 0.2em 0.25em 0.15em;
@@ -8209,14 +8209,13 @@ ul.link-list {
     display: inline-block;
     font-weight: 200;
     font-size: 13px;
-    padding: 0 4px 0 8px;
     line-height: 13px; }
     ul.link-list li:after {
-      content: " | ";
-      color: #c7c7c7;
-      font-size: 10px;
+      content: " - ";
+      color: #dfdfdf;
       vertical-align: text-top;
-      margin-left: 8px; }
+      margin-left: 8px;
+      margin-right: 8px; }
     ul.link-list li:last-child:after {
       content: "";
       margin-left: 0; }
@@ -8237,10 +8236,16 @@ ul.link-list {
   .hero .cta strong {
     color: #ef5a34;
     text-transform: uppercase;
-    margin-right: 12px; }
+    line-height: 50px; }
 
-ul.usp li {
-  font-weight: bold; }
+ul.usp {
+  list-style: none;
+  margin-left: 0; }
+  ul.usp li {
+    font-weight: bold; }
+    ul.usp li .fa {
+      font-weight: normal;
+      color: green; }
 
 .feature {
   text-align: center;
@@ -8278,5 +8283,18 @@ ul.usp li {
   .testimonials .testimonial .usp li {
     line-height: 1.1;
     font-size: 14px; }
+
+footer[role="contentinfo"] {
+  margin: 20px 0;
+  padding: 20px 0;
+  border-top: 1px dashed #ccc;
+  color: #999;
+  font-size: 12px; }
+  footer[role="contentinfo"] p {
+    font-size: 12px; }
+  footer[role="contentinfo"] a {
+    color: #555; }
+  footer[role="contentinfo"] ul.link-list {
+    line-height: inherit; }
 
 /*# sourceMappingURL=style.css.map */
