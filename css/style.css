@@ -8234,9 +8234,42 @@ ul.link-list {
     text-transform: uppercase;
     margin-top: 0; }
   .hero .cta strong {
+    display: none;
+    position: relative;
     color: #ef5a34;
-    text-transform: uppercase;
-    line-height: 50px; }
+    line-height: 50px;
+    margin-left: 55px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+    font-weight: normal; }
+    @media screen and (min-width: 768px) {
+      .hero .cta strong {
+        display: block; } }
+    .hero .cta strong:before {
+      content: " ";
+      -webkit-transform: rotate(-191deg);
+      -moz-transform: rotate(-191deg);
+      -ms-transform: rotate(-191deg);
+      -o-transform: rotate(-191deg);
+      transform: rotate(-191deg);
+      position: absolute;
+      left: -78px;
+      top: 10px;
+      width: 75px;
+      height: 25px;
+      background: url("../img/arrow.png");
+      background-size: 100%; }
+  .hero .cta .button {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-width: 0.3625rem;
+    padding-bottom: 0.7rem; }
 
 ul.usp {
   list-style: none;

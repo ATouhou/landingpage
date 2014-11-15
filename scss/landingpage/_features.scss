@@ -8,10 +8,7 @@
         display: inline-block;
         margin-bottom: 20px;
         padding: 30px;
-        @include border-top-radius(50%);
-        @include border-right-radius(50%);
-        @include border-bottom-radius(50%);
-        @include border-left-radius(50%);
+        @include rounded-corners(50%);
         color: #cc5850;
     }
 

@@ -15,10 +15,46 @@
 	}
 
 	.cta {
+
+
+
 		strong {
+
+			display: none;
+			@media screen and (min-width: 768px) {
+				display: block;
+			}
+			position: relative;
 			color: #ef5a34;
-			text-transform: uppercase;
+
 			line-height: 50px;
+			margin-left: 55px;
+			font-family: 'Gloria Hallelujah', cursive;
+			font-size: 16px;
+			font-weight: normal;
+
+
+
+				&:before {
+					content: " ";
+					@include transform(rotate(-191deg));
+					position: absolute;
+					left: -78px;
+					top: 10px;
+					width: 75px;
+					height: 25px;
+					background: url("../img/arrow.png");
+					background-size: 100%;
+				}
+
+		}
+
+		.button {
+			@include rounded-corners(5px);
+			border-bottom-width: .3625rem;
+			padding-bottom:.7rem;
+			//@include box-shadow()
+
 		}
 	}
 }
