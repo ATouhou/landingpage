@@ -1,9 +1,12 @@
 {
   "name": "mobile-first-landingpage",
-    "version": "1.0.0",
-    "devDependencies": {
-        "grunt": "*",
-        "grunt-contrib-watch": "*",
-        "grunt-sass": "*"
-    }
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-browserify": "^3.2.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-watch": "*",
+    "grunt-sass": "*",
+	  "node-bourbon": "^1.2.3"
+  }
 }

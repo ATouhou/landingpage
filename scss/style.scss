@@ -1,16 +1,26 @@
-@mixin center-image() {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-     -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-       -o-transform: translateX(-50%);
-          transform: translateX(-50%);
+@import "bourbon";
+
+@mixin rounded-corners ($value) {
+    @include border-top-radius($value);
+    @include border-right-radius($value);
+    @include border-bottom-radius($value);
+    @include border-left-radius($value);
 }
+
+@mixin center-image() {
+    position: absolute;
+    left: 50%;
+    @include transform(translateX(-50%));
+}
+
+
+@import "vendor/awesome/font-awesome";
 
 @import "vendor/normalize";
 @import "vendor/foundation";
 @import "landingpage/typography";
 @import "landingpage/header";
 @import "landingpage/hero";
+@import "landingpage/features";
 @import "landingpage/testimonials";
+@import "landingpage/footer";
